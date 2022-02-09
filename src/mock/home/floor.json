@@ -1,0 +1,16 @@
+[
+  {
+    "categories": ["热门", "大家电", "生活电器", "厨房电器", "应季电器空气", "净水高端电器"],
+    "keywords": ["节能补贴", "4K电视", "空气净化器","IH电饭煲","滚筒洗衣机","电热水器"],
+    "name": "家用电器",
+    "carousel": ["/images/home/floor-1-b01.png", "/images/home/floor-1-b02.png", "/images/home/floor-1-b03.png"],
+    "images": ["/images/home/floor-1-1.png", "/images/home/floor-1-2.png","/images/home/floor-1-3.png","/images/home/floor-1-4.png","/images/home/floor-1-5.png","/images/home/floor-1-6.png"]
+  },
+  {
+    "categories": ["热门", "大家电", "生活电器", "厨房电器", "应季电器空气", "净水高端电器"],
+    "keywords": ["节能补贴", "4K电视", "空气净化器","IH电饭煲","滚筒洗衣机","电热水器"],
+    "name": "家用电器",
+    "carousel": ["/images/home/floor-1-b01.png", "/images/home/floor-1-b02.png", "/images/home/floor-1-b03.png"],
+    "images": ["/images/home/floor-1-1.png", "/images/home/floor-1-2.png","/images/home/floor-1-3.png","/images/home/floor-1-4.png","/images/home/floor-1-5.png","/images/home/floor-1-6.png"]
+  }
+]

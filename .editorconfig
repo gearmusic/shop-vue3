@@ -1,0 +1,5 @@
+root = true // 让这个文件生效
+[*] // 对所有文件都生效
+charset = utf-8 // 编码
+indent_style = tabs // 缩进'tabs键',如果习惯用空格可以设为'space'
+indent_size = 2 // 缩进的尺寸
