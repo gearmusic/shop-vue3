@@ -88,7 +88,6 @@ const router = createRouter({
   routes
 })
 
-//const loginStore = useLoginStore()
 
 router.beforeEach((to, from, next) => {
   const loginStore = useLoginStore()
