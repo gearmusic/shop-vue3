@@ -4,8 +4,8 @@
     :modules="modules"
     :slides-per-view="1"
     :space-between="50"
-    :pagination="{ clickable: true }"
-    navigation
+    :pagination ="{ clickable: true }"
+    :navigation = "true"
   >
     <swiper-slide v-for="(item, index) in imgUrls" :key="index">
       <img :src="item" alt="" />
@@ -25,8 +25,7 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
-
-defineProps<{
+const props = defineProps<{
   imgUrls: Array<string>
 }>()
 

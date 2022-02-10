@@ -23,7 +23,7 @@
             </div>
             <div class="floorBanner">
               <!--banner轮播-->
-              <carousel :img-urls="data.carousel" />
+              <my-carousel :img-urls="data.carousel" />
 
             </div>
             <div class="split">
@@ -57,16 +57,6 @@
 <script lang="ts" setup>
 
 import { FloorData } from '@/types/home'
-
-import { Swiper, SwiperSlide } from 'swiper/vue'
-import { Pagination,Navigation } from 'swiper'
-
-// Import Swiper styles
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/navigation'
-
-const modules = [ Pagination, Navigation ]
 
 defineProps<{
   data: FloorData

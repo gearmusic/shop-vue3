@@ -4,7 +4,7 @@
       <div class="center">
 
         <!--banner轮播-->
-        <carousel :img-urls="bannerList" />
+        <my-carousel :img-urls="bannerList" />
 
       </div>
       <div class="right">
@@ -93,7 +93,9 @@
 <script lang="ts" setup>
 
 import { onMounted, reactive } from 'vue'
+
 import { reqBannerList } from '@/api'
+
 
 interface schema {
   id: number,

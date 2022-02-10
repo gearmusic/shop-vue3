@@ -35,9 +35,16 @@ export const reqOrderPage = (pageNum: number) => request({ url: `/order/auth/${ 
 import request4pack from './request4pack'
 export const reqOrderState = (orderId: number) => request4pack({ url: `/payment/weixin/queryPayStatus/${ orderId }`, method: 'get' })
 
+//不使用MOCK默认用这里
+import requestLocal from './request_local'
+export const reqBannerList = () => requestLocal({ url: '/home/banner.json' })
+export const reqHomeFloor = () => requestLocal({url: '/home/floor.json'})
+
+//要是启用了MOCK就可以使用这里
+/*
 import requestMock from './request_mock'
 
 //home
 export const reqBannerList = () => requestMock({ url: '/home/banner', method: 'get' })
 export const reqHomeFloor = () => requestMock({ url: '/home/floor', method: 'get' })
-
+*/

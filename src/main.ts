@@ -5,7 +5,6 @@ import { createPinia } from 'pinia'
 
 import './styles/base.css'
 
-
 //注册库组件
 import TypeNav from '@/components/type-nav/TypeNav.vue'
 import Carousel from '@/components/carousel/Carousel.vue'
@@ -17,5 +16,5 @@ createApp(App)
 .use(router)
 .use(pinia)
 .component('type-nav', TypeNav)
-.component('carousel', Carousel)
+.component('my-carousel', Carousel)
 .mount('#app')

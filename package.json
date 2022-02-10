@@ -1,6 +1,6 @@
 {
   "name": "shop-vue3",
-  "version": "0.0.0",
+  "version": "1.1.2",
   "scripts": {
     "dev": "cross-env USE_MOCK=true vite",
     "build": "vite build",
